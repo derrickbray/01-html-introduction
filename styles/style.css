@@ -14,7 +14,6 @@ body {
 
 ul {
   padding-left: 0;
-
   list-style: none;
 }
 
@@ -29,26 +28,20 @@ img {
 .hero__container, .section__container {
   width: 100%;
   max-width: 65rem;
-
   margin: auto;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-
   min-height: 100vh;
-
   padding: 0 1rem;
-
-  background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png),
-    linear-gradient(to left, #2c3e50, #e74c3c);
+  background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(to left, #2c3e50, #e74c3c);
   color: #ecf0f1;
 }
 
 .hero__fill {
   flex-grow: 1;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,7 +54,6 @@ img {
 
 .nav-flex {
   display: flex;
-
   justify-content: space-between;
 }
 
@@ -82,7 +74,6 @@ ul.nav-group {
 
 .nav-group__item {
   margin: 0 0.5rem;
-
   opacity: 0.6;
 }
 
@@ -98,7 +89,7 @@ ul.nav-group {
   padding: 0.5em;
   color: inherit;
   text-decoration: none
- }
+}
 
 .hero .btn {
   margin-top: 1rem;
@@ -107,7 +98,6 @@ ul.nav-group {
 .section {
   background: #fafafa;
   padding: 2rem 1rem;
-
   color: #333;
 }
 
@@ -141,15 +131,12 @@ ul.nav-group {
 .row {
   display: flex;
   flex-wrap: wrap;
-
   margin: -1rem;
 }
 
 .row__column {
   margin: 1rem;
-  flex-grow: 1
-
-  min-width: 14rem;
+  flex-grow: 1 min-width: 14rem;
 }
 
 .row__column-1-2 {
@@ -168,7 +155,6 @@ ul.nav-group {
   padding: 6em 1rem;
   background: url('../photos/lights.jpeg') no-repeat center center fixed;
   background-size cover;
-
   color: #ecf0f1;
   text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -182,7 +168,6 @@ ul.nav-group {
   height: 100%;
   position: relative;
   margin: 0;
-
   filter: contrast(.9) sepia(.2);
   -webkit-filter: contrast(.9) sepia(.2);
 }
@@ -197,14 +182,13 @@ ul.nav-group {
   position: absolute;
   top: 0;
   width: 0;
-
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
 .section--more {
-  background: linear-gradient(#fdcc52,#fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
 }
 
 .polaroid::after {
@@ -215,9 +199,8 @@ ul.nav-group {
   width: 100%;
   top: 0;
   left: 0;
-
-  background: -webkit-radial-gradient(circle,#d0ba8e 20%,#360309 85%,#1d0210 100%);
-  background: radial-gradient(circle,#d0ba8e 20%,#360309 85%,#1d0210 100%);
+  background: -webkit-radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
+  background: radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
   mix-blend-mode: overlay;
 }
 
@@ -226,16 +209,14 @@ ul.nav-group {
   padding: 1rem;
   overflow: hidden;
   background: #fff;
-
   box-shadow: 0.2rem 0.1rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
-.card
-  height: 100%;
-  padding: 0.5;
-  padding-bottom: 3rem;
-}
+.card {height: 100%;
+padding: 0.5;
+padding-bottom: 3rem;
 
+}
 .student-fact__icon {
   display: block;
   text-align: center;
